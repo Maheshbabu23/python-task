@@ -38,13 +38,13 @@ EE = '    '
 for x in myresult:
   a = x.get('lvl')
   if a ==0:
-    print(AA*a,x.get('last_name'),x.get('lvl'))
+    print(AA*a,x.get('last_name'))
   elif a==1:
-    print(EE*a,BB,x.get('last_name'),x.get('lvl'))
+    print(EE*a,BB,x.get('last_name'))
   elif a==2:
-    print(EE*a,BB,x.get('last_name'),x.get('lvl'))
+    print(EE*a,BB,x.get('last_name'))
   else:
-    print(EE*a,BB,x.get('last_name'),x.get('lvl'))
+    print(EE*a,BB,x.get('last_name'))
 
 #a = x.get('last_name')
 #print(a)
